@@ -111,7 +111,8 @@ SNS_TOPIC_ARN = "arn:aws:sns:af-south-1:1234567890:AlertUsBeforeTheBoom"
 ---  
 
 <div align="center">  
-  <sub>Built with ❤, Redbull🧃, and a sprinkle of AWS magic in Johannesburg 🇿🇦</sub>  
+  <sub>Built with ❤, Redbull🧃, and a sprinkle of AWS![AwsAwsMemeGIF](https://github.com/user-attachments/assets/b1f6d288-59e4-4b44-959a-d43d917a1178)
+ magic in Johannesburg 🇿🇦</sub>  
   <br>  
   <sup>P.S. My Python skills are now so sharp, I could code a robot to braai better than my uncle. 🍗🤖</sup>  
 </div>  
