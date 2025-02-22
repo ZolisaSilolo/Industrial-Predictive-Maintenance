@@ -16,8 +16,9 @@ Perfect for industries in South Africa where machines work harder than a Springb
 
 ---
 
-## *🌍 Real-World Use Cases (With a Mzansi Twist!![WalkWalkingGIF](https://github.com/user-attachments/assets/fdfbbabd-dfb1-488f-bc1a-3a84163cdc9e)
-)*  
+## *🌍 Real-World Use Cases (With a Mzansi Twist!!)* 
+       [WalkWalkingGIF](https://github.com/user-attachments/assets/fdfbbabd-dfb1-488f-bc1a-3a84163cdc9e)
+  
 
 ### 1. *Mining Industry*  
    ⛏ Imagine a conveyor belt in a Limpopo platinum mine getting too hot 🔥. This system detects it *before* it turns into a R500k repair bill. Cha-ching saved! 💰  
@@ -98,9 +99,10 @@ SNS_TOPIC_ARN = "arn:aws:sns:af-south-1:1234567890:AlertUsBeforeTheBoom"
 
 ---
 
-## *🎉 Final Note to Potential Recruiters, I see you![ClipWindowsGIF](https://github.com/user-attachments/assets/4d2dc7e3-eb96-4ff4-8030-08138bcfcb02)
+## *🎉 Final Note to Potential Recruiters, I see you!
+      [ClipWindowsGIF](https://github.com/user-attachments/assets/4d2dc7e3-eb96-4ff4-8030-08138bcfcb02)
  *  
-“This project isn’t just code—it’s proof I can solve real-world problems with AWS + Python while keeping it fun. Let’s chat about how I can save your machines (and your coffee budget ☕)!”  
+“This project isn’t just code—it’s proof I can solve real-world problems with AWS + Python while keeping it fun. Let’s chat about how I can save your machines (and the coffee budget ☕)!”  
 
 ---  
 
@@ -109,9 +111,9 @@ SNS_TOPIC_ARN = "arn:aws:sns:af-south-1:1234567890:AlertUsBeforeTheBoom"
 ---  
 
 <div align="center">  
-  <sub>Built with ❤, ☕, and a sprinkle of AWS magic in Cape Town 🇿🇦</sub>  
+  <sub>Built with ❤, Redbull🧃, and a sprinkle of AWS magic in Johannesburg 🇿🇦</sub>  
   <br>  
-  <sup>P.S. My Python skills are now so sharp, I could code a robot to braai better than your uncle. 🍗🤖</sup>  
+  <sup>P.S. My Python skills are now so sharp, I could code a robot to braai better than my uncle. 🍗🤖</sup>  
 </div>  
   
 
