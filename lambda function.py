@@ -1,6 +1,20 @@
 import json
 import boto3
 import random
+import paho.mqtt.client as mqtt
+
+# AWS IoT Core details
+IOT_CORE_ENDPOINT = "your-iot-core-endpoint"
+IOT_CORE_TOPIC = "your/iot/topic"
+
+# Initialize MQTT client
+mqtt_client = mqtt.Client()
+
+def connect_mqtt():
+    mqtt_client.connect(IOT_CORE_ENDPOINT, 8883, 60)
+
+def publish_to_iot_core(sensor_data):
+    mqtt_client.publish(IOT_CORE_TOPIC, json.dumps(sensor_data))
 
 # Clients for SageMaker and SNS with region specification
 sagemaker = boto3.client('sagemaker-runtime', region_name='us-east-1')
@@ -30,6 +44,12 @@ def lambda_handler(event, context):
         "temperature": random.uniform(20, 30),
         "vibration": random.uniform(0, 10),
     }
+
+    # Connect to AWS IoT Core
+    connect_mqtt()
+
+    # Publish simulated sensor data to AWS IoT Core
+    publish_to_iot_core(sensor_data)
 
     try:
         # Now this my dear friend is to:Invoke SageMaker endpoint for prediction
@@ -74,7 +94,8 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps({
             'sensor_data': sensor_data,
-            'prediction': prediction
+            'prediction': prediction,
+            'message': 'Data published to AWS IoT Core and SageMaker prediction executed'
         })
     }
 
@@ -85,4 +106,4 @@ def lambda_handler(event, context):
 #This is the power of AWS Lambda functions and the AWS SDK for Python (Boto3).
 #You can use this as a template to build your own serverless applications that leverage AWS services to solve real-world problems.
 #I hope you enjoyed this project and learned something new about serverless computing with AWS Lambda.
-#Thank you for reading!
+#Thank you for reading
