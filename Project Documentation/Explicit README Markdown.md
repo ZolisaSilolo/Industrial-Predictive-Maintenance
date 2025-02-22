@@ -157,7 +157,24 @@ AWS IoT Device Management can be used to manage the devices themselves (e.g., se
 Security
 
 # AWS IoT is a great way to secure the exchange of data between your devices and the cloud.
-In Summary:
 
-The current code is a great starting point for a proof-of-concept or a controlled testing environment. It successfully demonstrates the core logic of simulating data, calling a SageMaker endpoint, and triggering SNS alerts.
+----
+
+(updated as of 22 February 2025)
+📡 AWS IoT Core Integration
+
+This project now includes integration with AWS IoT Core to manage and analyze real-time sensor data. The Lambda function publishes simulated sensor data to AWS IoT Core for enhanced IoT capabilities.
+
+Steps:
+
+Simulate Sensor Data:
+
+Generates temperature and vibration data.
+Publish Data to AWS IoT Core:
+
+Utilizes MQTT to send data to AWS IoT Core.
+Analyze Data in AWS IoT Core:
+
+Use AWS IoT Core to manage and analyze the data, and integrate with other AWS services as needed.
+
 
