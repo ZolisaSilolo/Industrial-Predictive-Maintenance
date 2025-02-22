@@ -1,8 +1,6 @@
 # 🚀 Predictive Maintenance System: Saving Machines from Meltdowns (and Boredom!) 🌡⚡  
 
-<div align="center">  
-<img src="https://via.placeholder.com/800x400?text=AI+Guardian+Angel+for+Machinery" width="600">  
-</div>  
+ 
 
 ---
 
