@@ -88,6 +88,22 @@ SNS_TOPIC_ARN = "arn:aws:sns:af-south-1:1234567890:AlertUsBeforeTheBoom"
 - Send SMS alerts in Afrikaans/Zulu/Xhosa for local teams! 🇿🇦  
 
 ---
+## *📡 AWS IoT Core Integration*
+
+This project now includes integration with AWS IoT Core to manage and analyze real-time sensor data. The Lambda function publishes simulated sensor data to AWS IoT Core for enhanced IoT capabilities.
+
+### Steps:
+1. **Simulate Sensor Data**:
+   - Generates temperature and vibration data.
+
+2. **Publish Data to AWS IoT Core**:
+   - Utilizes MQTT to send data to AWS IoT Core.
+
+3. **Analyze Data in AWS IoT Core**:
+   - Use AWS IoT Core to manage and analyze the data, and integrate with other AWS services as needed.
+
+(updated as of 22 February 2025)
+---
 
 ## *📚 Skills I Leveled Up*  
 
